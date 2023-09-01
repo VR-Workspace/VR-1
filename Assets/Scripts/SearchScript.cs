@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class SearchScript : MonoBehaviour
 {
@@ -30,28 +31,28 @@ public class SearchScript : MonoBehaviour
 
     }
 
-    // public void Search(){
-    //     string SearchText = SearchBar.GetComponent<TMP_InputField>().text;
+    public void Search(){
+        string SearchText = SearchBar.GetComponent<TMP_InputField>().text;
 
-    //     int searchTxtlength = SearchText.length;
+        int searchTxtlength = SearchText.Length;
 
-    //     int searchedElements = 0;
+        int searchedElements = 0;
 
-    //     foreach(GameObject ele in Element){
+        foreach(GameObject ele in Element){
 
-    //         searchedElements += 1;
+            searchedElements += 1;
 
-    //         if(ele.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text.Length >= searchTxtlength)
-    //         {
-    //             if(SearchText.ToLower() == ele.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text.Substring(0,searchTxtlength).ToLower())
-    //             {
-    //                 ele.SetActive(true);
-    //             }
-    //             else
-    //             {
-    //                 ele.SetActive(false);
-    //             }
-    //         }
-    //     }
-    // }
+            if(ele.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text.Length >= searchTxtlength)
+            {
+                if(SearchText.ToLower() == ele.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text.Substring(0,searchTxtlength).ToLower())
+                {
+                    ele.SetActive(true);
+                }
+                else
+                {
+                    ele.SetActive(false);
+                }
+            }
+        }
+    }
 }
