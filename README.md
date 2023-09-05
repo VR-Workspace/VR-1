@@ -3,7 +3,7 @@
 
 Introduction:
 -
-This project demonstrates an attempt made my NITK Surathkal to convert the Virtual Labs that help countless students conduct experiments remotely to experiencing the experiment with the use of the technology of the future- Virtual Labs. 
+This project demonstrates an attempt made by NITK Surathkal to convert the Virtual Labs that help countless students conduct experiments remotely to experiencing the experiment with the use of the technology of the future- Virtual Labs. 
 This project is an extension of the vision to convert the virtual labs to virtual reality labs hence, deepening the ability of the students to understand the material and encourage scientific spirit in them.
 
 •	Virtual reality
