@@ -1,12 +1,13 @@
-#SOM Lab to Virtual Reality 
-A fully functional project demonstrating written in C# using Unity Software that enables users to conduct experiments on SOM Lab virtually.
+# SOM Lab to Virtual Reality 
+
+## A fully functional project demonstrating written in C# using Unity Software that enables users to conduct experiments on SOM Lab virtually.
 
 OBJECTIVE
 -
 This project demonstrates an attempt made by NITK Surathkal to convert the Virtual Labs that help countless students conduct experiments remotely to experiencing the experiment with the use of the technology of the future - Virtual Labs. 
 
-REQUIREMENTS
---
+REQUIREMENTS 
+-
 Unity:
 https://docs.unity3d.com/Manual/system-requirements.html
 
@@ -16,7 +17,7 @@ https://circuitstream.com/blog/vr-hardware
 HOW TO USE THIS PROJECT
 --
 1. Install Unity and Unity Hub on your computer
-2. Find the <CODE> option
+2. Find the CODE option
 3. Download ZIP File
 4. Locate and UnZip file in your computer's storage
 5. Open Unity Hub and find the "Open" button
