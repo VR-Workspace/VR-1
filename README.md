@@ -24,6 +24,10 @@ HOW TO USE THIS PROJECT
 6. Choose the downloaded file and load it on your Unity Hub
 7. You should be able to use the project now
 
+DEMO
+--
+
+
 
 
 
