@@ -6,12 +6,19 @@ OBJECTIVE
 -
 This project demonstrates an attempt made by NITK Surathkal to convert the Virtual Labs that help countless students conduct experiments remotely to experiencing the experiment with the use of the technology of the future - Virtual Labs. 
 
-REQUIREMENTS 
--
-Unity:
-https://docs.unity3d.com/Manual/system-requirements.html
+PRE REQUISITES
+--
+* Unity:
+https://unity.com/download
 
-VR Headsets:
+* Meta Quest Developer Hub:
+https://developer.oculus.com/downloads/package/oculus-developer-hub-win/
+
+* Microsoft Visual Studio [or any IDE of your choice]
+
+COMPATIBILITY
+-
+* VR Headsets:
 https://circuitstream.com/blog/vr-hardware
 
 HOW TO USE THIS PROJECT
