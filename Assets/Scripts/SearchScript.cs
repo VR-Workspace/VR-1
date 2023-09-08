@@ -16,12 +16,8 @@ public class SearchScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Hello world");
 
         totalElements = Container.transform.childCount;
-
-        Debug.Log("Hello world");
-        Debug.Log(totalElements);
 
         Element = new GameObject[totalElements];
 
